@@ -1,14 +1,14 @@
-package com.alproits.simpel.ui.home;
+package com.alproits.simpel.ui.absensi;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class AbsensiViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public AbsensiViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is home fragment");
     }

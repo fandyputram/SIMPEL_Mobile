@@ -7,27 +7,27 @@
 
     <fragment
         android:id="@+id/nav_absensi"
-        android:name="com.alproits.simpel.ui.home.HomeFragment"
+        android:name="com.alproits.simpel.ui.absensi.AbsensiFragment"
         android:label="@string/menu_absensi"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_absensi" />
 
     <fragment
         android:id="@+id/nav_laporan"
-        android:name="com.alproits.simpel.ui.gallery.GalleryFragment"
+        android:name="com.alproits.simpel.ui.laporan.LaporanFragment"
         android:label="@string/menu_laporan"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_laporan" />
 
     <fragment
         android:id="@+id/nav_raport"
-        android:name="com.alproits.simpel.ui.slideshow.SlideshowFragment"
+        android:name="com.alproits.simpel.ui.raport.RaportFragment"
         android:label="@string/menu_raport"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_raport" />
 
     <fragment
         android:id="@+id/nav_percakapan"
-        android:name="com.alproits.simpel.ui.tools.ToolsFragment"
+        android:name="com.alproits.simpel.ui.percakapan.PercakapanFragment"
         android:label="@string/menu_percakapan"
-        tools:layout="@layout/fragment_tools" />
+        tools:layout="@layout/fragment_percakapan" />
 
     <fragment
         android:id="@+id/nav_share"

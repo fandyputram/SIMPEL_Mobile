@@ -1,4 +1,4 @@
-package com.alproits.simpel.ui.home;
+package com.alproits.simpel.ui.percakapan;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.alproits.simpel.R;
 
-public class HomeFragment extends Fragment {
+public class PercakapanFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
+    private PercakapanViewModel percakapanViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                ViewModelProviders.of(this).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
-        final TextView textView = root.findViewById(R.id.text_home);
-        homeViewModel.getText().observe(this, new Observer<String>() {
+        percakapanViewModel =
+                ViewModelProviders.of(this).get(PercakapanViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_percakapan, container, false);
+        final TextView textView = root.findViewById(R.id.text_tools);
+        percakapanViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

@@ -1,16 +1,16 @@
-package com.alproits.simpel.ui.slideshow;
+package com.alproits.simpel.ui.percakapan;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SlideshowViewModel extends ViewModel {
+public class PercakapanViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SlideshowViewModel() {
+    public PercakapanViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("This is tools fragment");
     }
 
     public LiveData<String> getText() {
