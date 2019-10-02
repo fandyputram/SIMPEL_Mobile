@@ -5,4 +5,9 @@
     <color name="colorPrimaryDark">#201e1e</color>
     <color name="colorTextDark">#1D1B1B</color>
     <color name="colorTextWhite">#ffffff</color>
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorWarning">#FFC107</color>
+    <color name="colorInactive">#E4E4E4</color>
+
+
 </resources>

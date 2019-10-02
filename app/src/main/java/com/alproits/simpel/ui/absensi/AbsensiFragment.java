@@ -23,13 +23,7 @@ public class AbsensiFragment extends Fragment {
         absensiViewModel =
                 ViewModelProviders.of(this).get(AbsensiViewModel.class);
         View root = inflater.inflate(R.layout.fragment_absensi, container, false);
-        final TextView textView = root.findViewById(R.id.text_home);
-        absensiViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+
         return root;
     }
 }
