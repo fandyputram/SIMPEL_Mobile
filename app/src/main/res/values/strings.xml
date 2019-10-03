@@ -15,4 +15,7 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="kelas">Kelas</string>
+    <string name="lainnya">Lainnya</string>
+    <string name="tentang_kami">Tentang Kami</string>
+    <string name="keluar">Keluar</string>
 </resources>
