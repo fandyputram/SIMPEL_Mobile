@@ -29,6 +29,8 @@ public class TeacherNavigationDrawer extends AppCompatActivity {
 
         DrawerLayout drawer = findViewById(R.id.teacher_drawer_layout);
         NavigationView navigationView = findViewById(R.id.teacher_nav_view);
+
+
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
@@ -54,4 +56,5 @@ public class TeacherNavigationDrawer extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
 }

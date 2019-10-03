@@ -53,27 +53,33 @@
                 />
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="vertical"
+                android:layout_weight="1">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:text="@string/ani"
                     android:textStyle="bold"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp"/>
 
-                <Button
-                    android:layout_width="96dp"
-                    android:layout_height="64dp"
-                    android:elevation="2dp"
-                    android:text="@string/tambah_nilai"
-                    android:textColor="@android:color/black"
-                    android:layout_marginEnd="@dimen/fab_margin"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="001"/>
 
             </LinearLayout>
+
+            <Button
+                android:layout_width="96dp"
+                android:layout_height="64dp"
+                android:elevation="2dp"
+                android:text="@string/tambah_nilai"
+                android:textColor="@android:color/black"/>
 
         </LinearLayout>
 
@@ -113,25 +119,32 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/budi"
                     android:textStyle="bold"
-                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp"/>
 
-                <Button
-                    android:layout_width="96dp"
-                    android:layout_height="64dp"
-                    android:elevation="2dp"
-                    android:text="@string/tambah_nilai"
-                    android:textColor="@android:color/black"
-                    android:layout_marginEnd="@dimen/fab_margin"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="002"/>
 
             </LinearLayout>
+
+            <Button
+                android:layout_width="96dp"
+                android:layout_height="64dp"
+                android:elevation="2dp"
+                android:text="@string/tambah_nilai"
+                android:textColor="@android:color/black"/>
 
         </LinearLayout>
 
@@ -169,25 +182,32 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/dina"
                     android:textStyle="bold"
-                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp"/>
 
-                <Button
-                    android:layout_width="96dp"
-                    android:layout_height="64dp"
-                    android:elevation="2dp"
-                    android:text="@string/tambah_nilai"
-                    android:textColor="@android:color/black"
-                    android:layout_marginEnd="@dimen/fab_margin"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="003"/>
 
             </LinearLayout>
+
+            <Button
+                android:layout_width="96dp"
+                android:layout_height="64dp"
+                android:elevation="2dp"
+                android:text="@string/tambah_nilai"
+                android:textColor="@android:color/black"/>
 
         </LinearLayout>
 
