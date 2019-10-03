@@ -5,7 +5,7 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_absensi"
+            android:id="@+id/nav_kelas"
             android:icon="@drawable/ic_book_black_24dp"
             android:title="@string/kelas" />
         <item
@@ -21,18 +21,5 @@
             android:icon="@drawable/ic_chat_black_24dp"
             android:title="@string/menu_percakapan" />
     </group>
-
-    <item android:title="@string/lainnya">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/tentang_kami" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/keluar" />
-        </menu>
-    </item>
 
 </menu>

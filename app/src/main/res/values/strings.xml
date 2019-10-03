@@ -20,4 +20,26 @@
     <string name="keluar">Keluar</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="daftar_laporan_siswa">Daftar Laporan Siswa</string>
+    <string name="nama_ortu">M. Alam Cahya</string>
+    <string name="judul_laporan1">Anak anda berkelahi</string>
+    <string name="detil_laporan1">Berkelahi dengan tem..</string>
+    <string name="tgl_laporan1">5 April 2019</string>
+    <string name="waktu_laporan1">12:30 WIB</string>
+    <string name="pengumuman">Pengumuman</string>
+    <string name="tgl_laporan2">4 April 2019</string>
+    <string name="waktu_laporan2">11:00 WIB</string>
+    <string name="judul_laporan2">Bazzar Sekolah</string>
+    <string name="detil_laporan2">Akan diadakan pada tg..</string>
+    <string name="menang_lomba">Menang Lomba</string>
+    <string name="detil_laporan3">Anak anda, mendapat..</string>
+    <string name="tgl_laporan3">2 April 2019</string>
+    <string name="daftar_siswa">Daftar Siswa</string>
+    <string name="ani">Ani</string>
+    <string name="budi">Budi</string>
+    <string name="dina">Dina</string>
+    <string name="nilai_siswa">Nilai Siswa</string>
+    <string name="tambah_nilai">Tambah Nilai</string>
+    <string name="ortu">Daniel Kurniawan</string>
+    <string name="wali_murid">Wali Murid</string>
 </resources>
