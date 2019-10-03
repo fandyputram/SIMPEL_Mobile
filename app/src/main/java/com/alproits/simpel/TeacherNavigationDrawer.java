@@ -43,7 +43,7 @@ public class TeacherNavigationDrawer extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_absensi, R.id.nav_laporan, R.id.nav_raport,
+                R.id.nav_kelas, R.id.nav_laporan, R.id.nav_raport,
                 R.id.nav_percakapan, R.id.nav_share, R.id.nav_send)
                 .setDrawerLayout(drawer)
                 .build();

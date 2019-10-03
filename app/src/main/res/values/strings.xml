@@ -34,4 +34,10 @@
     <string name="menang_lomba">Menang Lomba</string>
     <string name="detil_laporan3">Anak anda, mendapat..</string>
     <string name="tgl_laporan3">2 April 2019</string>
+    <string name="daftar_siswa">Daftar Siswa</string>
+    <string name="ani">Ani</string>
+    <string name="budi">Budi</string>
+    <string name="dina">Dina</string>
+    <string name="nilai_siswa">Nilai Siswa</string>
+    <string name="tambah_nilai">Tambah Nilai</string>
 </resources>
