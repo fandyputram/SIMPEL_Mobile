@@ -40,4 +40,6 @@
     <string name="dina">Dina</string>
     <string name="nilai_siswa">Nilai Siswa</string>
     <string name="tambah_nilai">Tambah Nilai</string>
+    <string name="ortu">Daniel Kurniawan</string>
+    <string name="wali_murid">Wali Murid</string>
 </resources>

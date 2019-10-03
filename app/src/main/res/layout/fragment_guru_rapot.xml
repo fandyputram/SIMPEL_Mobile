@@ -70,7 +70,8 @@
                     android:layout_height="64dp"
                     android:elevation="2dp"
                     android:text="@string/tambah_nilai"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/black"
+                    android:layout_marginEnd="@dimen/fab_margin"/>
 
             </LinearLayout>
 
@@ -127,7 +128,8 @@
                     android:layout_height="64dp"
                     android:elevation="2dp"
                     android:text="@string/tambah_nilai"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/black"
+                    android:layout_marginEnd="@dimen/fab_margin"/>
 
             </LinearLayout>
 
@@ -182,7 +184,8 @@
                     android:layout_height="64dp"
                     android:elevation="2dp"
                     android:text="@string/tambah_nilai"
-                    android:textColor="@android:color/black" />
+                    android:textColor="@android:color/black"
+                    android:layout_marginEnd="@dimen/fab_margin"/>
 
             </LinearLayout>
 
