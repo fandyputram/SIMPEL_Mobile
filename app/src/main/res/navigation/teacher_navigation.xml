@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/teacher_navigation"
+    app:startDestination="@+id/nav_kelas">
+
+    <fragment
+        android:id="@+id/nav_kelas"
+        android:name="com.alproits.simpel.teacher.kelas.KelasFragment"
+        android:label="@string/kelas"
+        tools:layout="@layout/fragment_guru_kelas" />
+
+    <fragment
+        android:id="@+id/nav_laporan"
+        android:name="com.alproits.simpel.teacher.laporan.LaporanFragment"
+        android:label="@string/menu_laporan"
+        tools:layout="@layout/fragment_guru_laporan" />
+
+    <fragment
+        android:id="@+id/nav_raport"
+        android:name="com.alproits.simpel.teacher.rapot.RapotFragment"
+        android:label="@string/menu_raport"
+        tools:layout="@layout/fragment_guru_rapot" />
+
+    <fragment
+        android:id="@+id/nav_percakapan"
+        android:name="com.alproits.simpel.teacher.percakapan.PercakapanFragment"
+        android:label="@string/menu_percakapan"
+        tools:layout="@layout/fragment_guru_percakapan" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.alproits.simpel.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.alproits.simpel.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>
